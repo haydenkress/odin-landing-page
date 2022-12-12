@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 html {
     background-color: lightgrey;
+    font-family: 'Roboto', Helvetica, sans-serif;
 }
 body {
     display: flex;
@@ -10,6 +13,7 @@ body {
 
 .top {
     background-color: darkslateblue;
+    color: white;
 }
 
 nav {
@@ -17,29 +21,95 @@ nav {
     margin: 2em;
     justify-content: space-between;
     align-items: center;
+    margin-right: 6em;
+    margin-left: 6em;
 }
 
 .logo {
     margin: 0px;
+    font-weight: 700;
+    color: white;
 }
 
 .links {
     display: flex;
     gap: 2em;
-
 }
 
-ul {
+ul, a {
     text-decoration: none;
     list-style-type: none;
-    color: white;
     margin: 0px;
+}
+
+button {
+    margin-top: 1em;
+    width: 100px;
+    height: 30px;
+    color: black;
+    background-color: aqua;
+    border-radius: 1em;
+    font-family: 'Roboto';
 }
 
 .top img {
     width: 400px;
+    padding: 4em;
+}
+
+.hero {
+    display: flex;
+    margin: 2em;
+    padding: 0em;
+    justify-content: space-evenly;
+    gap: 2em;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 4em;
+    position: relative;
+}
+
+.heading {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 1em;
+}
+
+.information .heading {
+    margin: 2em;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    margin-top: 4em;
+    margin: 4em;
+    justify-content: space-around;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    word-wrap: break-word;
+}
+
+.card .text {
+    justify-self: center;
+    align-self: flex-start;
+    margin: 1em;
+    text-align: center;
 }
 
 .information img {
     width: 300px;
+    height: 300px;
+    object-fit: clip;
 }
+
