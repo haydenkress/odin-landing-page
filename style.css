@@ -1,0 +1,45 @@
+html {
+    background-color: lightgrey;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    margin: 0px;
+}
+
+.top {
+    background-color: darkslateblue;
+}
+
+nav {
+    display: flex;
+    margin: 2em;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    margin: 0px;
+}
+
+.links {
+    display: flex;
+    gap: 2em;
+
+}
+
+ul {
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+    margin: 0px;
+}
+
+.top img {
+    width: 400px;
+}
+
+.information img {
+    width: 300px;
+}
