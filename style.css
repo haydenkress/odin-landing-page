@@ -50,6 +50,7 @@ button {
     background-color: aqua;
     border-radius: 1em;
     font-family: 'Roboto';
+    flex-shrink: 0;
 }
 
 .top img {
@@ -135,6 +136,32 @@ button {
     align-self: flex-end;
     margin-right: 6em;
     margin-bottom: 2em;
+}
+
+.CTA {
+    display: flex;
+    height: auto;
+    padding: 4em;
+    justify-content: center;
+    align-items: center;
+}
+
+.bubble {
+    display: flex;
+    background-color: slategrey;
+    color: white;
+    padding: 2em;
+    width: fit-content;
+    border-radius: 1em;
+    align-items: center;
+    margin: 2em;
+    gap: 4em;
+}
+
+.copy {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 
