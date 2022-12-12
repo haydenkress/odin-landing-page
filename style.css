@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 html {
-    background-color: lightgrey;
+    background-color: white;
     font-family: 'Roboto', Helvetica, sans-serif;
 }
 body {
@@ -112,4 +112,29 @@ button {
     height: 300px;
     object-fit: clip;
 }
+
+.quote-section {
+    height: auto;
+    background-color: lightgrey;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote {
+    font-size: 48px;
+    font-style: italic;
+    text-align: center;
+    margin: 2em;
+    margin-bottom: 0em;
+}
+
+.author {
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 700;
+    align-self: flex-end;
+    margin-right: 6em;
+    margin-bottom: 2em;
+}
+
 
