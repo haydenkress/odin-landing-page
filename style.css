@@ -144,7 +144,8 @@ button:hover .button-text {
 
 .top img {
     width: 400px;
-    padding: 4em;
+    margin: 4em;
+    border-radius: 16px;
 }
 
 .hero {
@@ -201,6 +202,7 @@ button:hover .button-text {
     width: 300px;
     height: 300px;
     object-fit: clip;
+    border-radius: 16px;
 }
 
 .quote-section {
